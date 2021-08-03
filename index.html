@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylegen’s Playground</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_darkomde.css">
+</head>
+<body>
+  
+  <section class="wholeWrapper" id="wholeWrapperBg">
+    <div class="whiteContainer" id="whiteWrapper">
+
+      <div class="gridContainer">
+
+        <div class="grid-item-1">
+          <div class="sayHelloWrapper">
+          <div class="line"></div>
+          <h5>Say Hello 👋</h5>
+          </div>
+          <h1 id="headerTitle">Let’s Work
+            Together.</h1>
+          <p>I’d love to meet up with you to discuss your venture, and potential collaborations.</p>
+
+          <div class="toggleWrapper">
+            <label class="switch">
+              <input type="checkbox" id="checkBoxSwitch" onclick="darkMode()">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <p id="darkModeTextOff">Dark mode off</p>
+          <p class="darkModeTextOn" id="darkModeTextOn">Dark mode on</p>
+
+        </div>
+
+        <div class="grid-item-2">
+        
+            <div class="fieldWrapper">
+              <input class="inputField" id="fieldInput_profile" type="text" placeholder="Name">
+              <img class="inputIcon" id="iconProfile" src="assets/Iconly-Broken-Profile.svg">
+            </div>
+            
+            <div class="fieldWrapper">
+              <input class="inputField" id="fieldInput_email" type="email" placeholder="Email">
+              <img class="inputIcon" id="iconEmail" src="assets/Iconly-Broken-Message.svg">
+            </div>
+
+            <div class="fieldWrapper">
+              <textarea class="inputField message" id="fieldInput_message" type="text" placeholder="Message"></textarea>
+              <img class="inputIcon" id="iconMessage" src="assets/Iconly-Broken-Chat.svg">
+            </div>
+            
+            <div class="buttonWrapper">
+              <button class="btn">
+              Let’s Talk
+              <img class="submitArrow" src="assets/Icon.svg">
+              </button>
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  
+  <script src="main.js"></script>
+
+</body>
+</html>
